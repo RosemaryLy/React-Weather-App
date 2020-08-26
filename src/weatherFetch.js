@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 function WeatherFetch() {
-const key = process.env.REACT_APP_API_KEY
     const [feels_like, setFeelsLike] = useState('');
     const [mainTemp, setMainTemp] = useState('');
     const [description, setDescription] = useState('');
     const [main, setMain] = useState('');
 
     useEffect(() => {
-        fetch('https://api.openweathermap.org/data/2.5/weather?id=6167865&appid=' + key + '&units=metric')
+        fetch(process.env.REACT_APP_API_KEY)
         .then((response) => {
             return response.json();
           })
@@ -19,7 +18,7 @@ const key = process.env.REACT_APP_API_KEY
             setDescription(data.weather[0].description);
             setMain(data.weather[0].main);
           });
-    }, [key])
+    }, [])
 
     return (
         <>
