@@ -4,8 +4,10 @@ import WeatherFetch from "./weatherFetch.js"
 
 function App() {
   return (
-    <div>
+    <div className="parent">
+      <div className="child">
       <WeatherFetch/>
+      </div>
     </div>
   );
 }
