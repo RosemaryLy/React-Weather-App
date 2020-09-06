@@ -13,8 +13,8 @@ function WeatherFetch() {
           })
           .then((data) => {
             console.log(data);
-            setFeelsLike(data.main.feels_like);
-            setMainTemp(data.main.temp);
+            setFeelsLike(Math.ceil(data.main.feels_like));
+            setMainTemp(Math.ceil(data.main.temp));
             setDescription(data.weather[0].description);
             setMain(data.weather[0].main);
           });
