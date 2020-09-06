@@ -4,11 +4,12 @@ import WeatherFetch from "./weatherFetch.js"
 
 function App() {
   return (
-    <div className="parent">
-      <div className="child">
+    <div id="bg">
+    <img src="Torontocityscape.jpg" alt="Toronto City Scape"></img>
+    <div class="child">
       <WeatherFetch/>
       </div>
-    </div>
+      </div>
   );
 }
 
