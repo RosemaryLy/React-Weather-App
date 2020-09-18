@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 function WeatherFetch() {
     const [feels_like, setFeelsLike] = useState('');
     const [mainTemp, setMainTemp] = useState('');
-    const [description, setDescription] = useState('');
     const [main, setMain] = useState('');
 
     useEffect(() => {
@@ -15,19 +14,21 @@ function WeatherFetch() {
             console.log(data);
             setFeelsLike(Math.ceil(data.main.feels_like));
             setMainTemp(Math.ceil(data.main.temp));
-            setDescription(data.weather[0].description);
             setMain(data.weather[0].main);
           });
     }, [])
 
     return (
         <>
+        <div className="card">
         <h1>Toronto</h1>
-            <h1>Temperature : {mainTemp} Degrees Celsius</h1>
-            <h1>Feels Like: {feels_like} </h1>
-            <h1>Weather Parameter: {main}</h1>
-            <h1>Description : {description}</h1>
+        <br></br>
+            <h3>Current Temperature : {mainTemp} <span>&#176;</span> C</h3>
+            <h3>Feels Like: {feels_like} <span>&#176;</span> C</h3>
+            <h3>Weather: {main}</h3>
+        </div>
         </>
+        
     )
 }
 export default WeatherFetch;

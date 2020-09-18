@@ -1,3 +1,28 @@
-body {
-  font-family: system-ui, serif;
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  background-image: url("img/Torontocityscape.jpg");
+  background-size: cover;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background: rgba(225, 255,255, .2);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5)
 }
