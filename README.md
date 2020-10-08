@@ -6,7 +6,7 @@ A simple React weather app that tells the user the current weather in Toronto, C
 
 ## Made with 
 
-HTML, CSS and javascript 
+HTML, CSS , javascript and OpenWeather API
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Config 
