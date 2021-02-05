@@ -21,7 +21,7 @@ function WeatherFetch() {
     return (
         <>
         <div className="card">
-        <h1>Toronto</h1>
+        <h1 style={{color: "white"}}>Toronto</h1>
         <br></br>
             <h3>Current Temperature : {mainTemp} <span>&#176;</span> C</h3>
             <h3>Feels Like: {feels_like} <span>&#176;</span> C</h3>
