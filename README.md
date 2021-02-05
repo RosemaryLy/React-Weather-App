@@ -24,6 +24,10 @@ This file is gitignored, it must be added by every developer after cloning
 REACT_APP_API_KEY=https://api.openweathermap.org/data/2.5/weather?id=6167865&appid=YOURAPIKEY&units=metric
 ```
 
+## Demo
+
+'https://rosemaryly.github.io/React-Weather-App/'
+
 ## Quickstart
 
 Install dependencies:
