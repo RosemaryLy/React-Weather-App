@@ -6,8 +6,39 @@ A simple React weather app that tells the user the current weather in Toronto, C
 
 ## Made with 
 
-HTML, CSS and javascript 
+HTML, CSS , javascript and OpenWeather API
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Config 
+
+Go to https://openweathermap.org/guide and follow the instructions to sign up for an API key 
+
+Configuration is done with environment variables specified in a file named .env in the root of the repo
+
+This file is gitignored, it must be added by every developer after cloning
+
+.env
+```bash
+# these are environment variables suitable for running this app locally
+
+REACT_APP_API_KEY=https://api.openweathermap.org/data/2.5/weather?id=6167865&appid=YOURAPIKEY&units=metric
+```
+
+## Quickstart
+
+Install dependencies:
+
+```
+npm install
+```
+
+Start the development server:
+
+```
+npm start
+```
+
+This will serve the app on `http://localhost:3000`
 
 ## Available Scripts
 
