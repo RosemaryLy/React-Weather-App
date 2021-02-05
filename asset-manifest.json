@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Weather-App/static/css/main.d5b7a424.chunk.css",
+    "main.js": "/React-Weather-App/static/js/main.1207f86a.chunk.js",
+    "main.js.map": "/React-Weather-App/static/js/main.1207f86a.chunk.js.map",
+    "runtime-main.js": "/React-Weather-App/static/js/runtime-main.6fe5135b.js",
+    "runtime-main.js.map": "/React-Weather-App/static/js/runtime-main.6fe5135b.js.map",
+    "static/js/2.a9465ece.chunk.js": "/React-Weather-App/static/js/2.a9465ece.chunk.js",
+    "static/js/2.a9465ece.chunk.js.map": "/React-Weather-App/static/js/2.a9465ece.chunk.js.map",
+    "index.html": "/React-Weather-App/index.html",
+    "precache-manifest.2703efac2535393369ddb4236c7b2fb1.js": "/React-Weather-App/precache-manifest.2703efac2535393369ddb4236c7b2fb1.js",
+    "service-worker.js": "/React-Weather-App/service-worker.js",
+    "static/css/main.d5b7a424.chunk.css.map": "/React-Weather-App/static/css/main.d5b7a424.chunk.css.map",
+    "static/js/2.a9465ece.chunk.js.LICENSE.txt": "/React-Weather-App/static/js/2.a9465ece.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/React-Weather-App/static/media/Torontocityscape.ca1aebc6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fe5135b.js",
+    "static/js/2.a9465ece.chunk.js",
+    "static/css/main.d5b7a424.chunk.css",
+    "static/js/main.1207f86a.chunk.js"
+  ]
+}
